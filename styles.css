@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+     }
+
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 35rem;
+    margin-top: 0;
+    height: 55px;
+    width: 55px;
+}
+
+
+.navbar {
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+    height: 12px;
+    font-family: "Raleway", sans-serif;
+    vertical-align: top;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    vertical-align:top;
+  }
+  
+  .navbar li {
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+
+  }
+  
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: #151414;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #3498db;
+  }
+  
+  .navbar .getstarted,
+  .navbar .getstarted:focus {
+    background: #3498db;
+    padding: 8px 25px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: #fff;
+  }
+  
+  .navbar .getstarted:hover,
+  .navbar .getstarted:focus:hover {
+    color: #fff;
+    background: #4aa3df;
+  }
+  
+
+.hero {
+    display: flex;
+    align-items: center;
+    background: #d9e8ef;
+    background-image: url(./prism.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: full-width;
+    color: #151414;
+  }
+
+  h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 44px;
+    text-align: center;
+
+  }
+  
+  .hero h3 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-transform: unset;
+    font-weight: 700;
+    text-shadow: 1px 0 2pxrgb(243, 246, 248);
+  }
+
+  .hero #bigApply {
+    font-size: 19px;
+    display: inline-block;
+    padding: 4px 0;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+    width: 124px;
+    height: 84px;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #272727;
+  }
+  
+  .hero #bigApply:hover {
+    padding-top: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #000000;
+  }
+
+  .infoText {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 37.5rem;
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    padding: 25px;
+    background-color: rgb(225, 245, 245);
+    border: 1px solid #151414;
+    border-spacing: 25px 25px;
+  }
+
+  .infoPic {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    width: 50%;
+    margin: 15px;
+    margin-bottom: 20px;
+    background-image: url(./Studenthero.jpg);
+    height: 300px;
+    width: 350px;
+    border: 6px inset #90cbf3;
+    
+  }
+
+  .textKolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .recommends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 35rem;
+    max-width: 100%;
+    margin: 30px;
+  } 
+
+
+
+  .recPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+  } 
+
+  .cta ,
+  p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 100%; 
+    text-align: center;
+  }
+
+  .cta .ctabtn {
+    position: absolute;
+    right: 50%;
+    left: 40%;
+    width: 170px;
+    height: 90px;
+    margin: 0;
+
+  }
+  
+  .row {
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+    margin-top: 250px;
+
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .row {
+    display: flex;
+    list-style: none;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
